@@ -63,20 +63,9 @@ void Menu::handleEvents() {
 }
 void Menu::play(Vector2i& mousePosition) {
 	if (mousePosition.x >= 300 && mousePosition.x <= 675 && mousePosition.y >= 350 && mousePosition.y <= 450) {
-		
-		Texture textureGame;
-		if (!textureGame.loadFromFile("images/game.png")) {
-			std::cout << "ERROR";
-		}
-		background = Sprite();
-		background.setTexture(textureGame);
-		unsigned int windowWidth = window.getSize().x;
-		unsigned int windowHeight = window.getSize().y;
-		float scaleX = static_cast<float>(windowWidth) / background.getLocalBounds().width;
-		float scaleY = static_cast<float>(windowHeight) / background.getLocalBounds().height;
-		background.setScale(scaleX, scaleY);
-		render();
-		showWindow();
+		window.close();
+		Game* game = new Game();
+		game->openGame();
 	}
 }
 void Menu::exit(Vector2i& mousePosition) {
