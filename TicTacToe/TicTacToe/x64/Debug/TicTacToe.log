@@ -1,2 +1,22 @@
 ﻿  game.cpp
+C:\Users\Anderson\Desktop\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(197,49): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+C:\Users\Anderson\Desktop\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(197,27): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+C:\Users\Anderson\Desktop\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(200,54): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+C:\Users\Anderson\Desktop\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(200,32): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
   TicTacToe.vcxproj -> C:\Users\Anderson\Desktop\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\x64\Debug\TicTacToe.exe
