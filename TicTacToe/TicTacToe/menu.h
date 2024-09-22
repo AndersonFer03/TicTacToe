@@ -9,6 +9,7 @@ private:
 	RenderWindow window;
 	Texture textureMenu;
 	Sprite background;
+	Game game;
 
 public:
 	Menu();

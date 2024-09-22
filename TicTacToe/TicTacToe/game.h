@@ -13,6 +13,7 @@ private:
 	bool paused;
 	int matrix[ROWS][COLUMNS];
 	Vector2i board[ROWS][COLUMNS];
+	Texture textureX, textureO;
 public:
 	Game();
 	void fillBoard();
@@ -36,5 +37,7 @@ public:
 	void drawCircle(float coordX, float coordY);
 	void drawX(float coordX, float coordY);
 	void showWindow();
+	int checkWinner();
+	void displayWinner(int winner);
 	void play();
 };

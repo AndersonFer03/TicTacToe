@@ -64,8 +64,7 @@ void Menu::handleEvents() {
 void Menu::play(Vector2i& mousePosition) {
 	if (mousePosition.x >= 300 && mousePosition.x <= 675 && mousePosition.y >= 350 && mousePosition.y <= 450) {
 		window.close();
-		Game* game = new Game();
-		game->openGame();
+		game.openGame();
 	}
 }
 void Menu::exit(Vector2i& mousePosition) {

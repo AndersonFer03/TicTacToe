@@ -1,25 +1,22 @@
 ﻿  game.cpp
-D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(197,49): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(202,49): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
           with
           [
               T=int
           ]
-D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(197,27): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(202,27): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
           with
           [
               T=int
           ]
-D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(200,54): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(205,54): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
           with
           [
               T=int
           ]
-D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(200,32): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\TicTacToe\game.cpp(205,32): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
           with
           [
               T=int
           ]
-  menu.cpp
-  TicTacToe.cpp
-  Generando código...
   TicTacToe.vcxproj -> D:\UNA\Tutorias UNA\Tutorias Progra I Verano 2023\Sesiones\Tutoria #3\Game TicTacToe\TicTacToe\TicTacToe\x64\Debug\TicTacToe.exe
