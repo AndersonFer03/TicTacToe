@@ -56,7 +56,7 @@ void Game::changeShift() {
 	if (playerNumber == 1) {
 		this->playerNumber = 2;
 	}
-	else {
+	else{
 		this->playerNumber = 1;
 	}
 }
@@ -169,8 +169,8 @@ void Game::insertDownLeft(Vector2i& mousePosition) {
 }
 void Game::findCoordinates() {
 	Vector2i mousePosition = Mouse::getPosition(gameWindow);
-	//std::cout << "X:" << mousePosition.x << std::endl;
-	//std::cout << "Y:" << mousePosition.y << std::endl;
+	std::cout << "X:" << mousePosition.x << std::endl;
+	std::cout << "Y:" << mousePosition.y << std::endl;
 	paused = true;
 	insertTopRight(mousePosition);
 	insertTopCentral(mousePosition);
